@@ -1,0 +1,47 @@
+/* src/components/BotCard.css */
+.BotCard {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.BotCard:hover {
+  transform: translateY(-10px);
+}
+
+.BotCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.BotCard p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.BotCard button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.BotCard button:hover {
+  background-color: #c0392b;
+}
+
+.BotCard button i {
+  margin-right: 5px;
+}

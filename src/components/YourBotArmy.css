@@ -1,0 +1,22 @@
+/* src/components/YourBotArmy.css */
+.YourBotArmy {
+  width: 90%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #ffebee;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 50%; /* Adjusted based on available container height */
+  overflow-y: auto; /* Allow vertical scrolling within the section */
+}
+
+.bots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.YourBotArmy h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
