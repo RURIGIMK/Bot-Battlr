@@ -1,4 +1,3 @@
-// src/components/YourBotArmy.js
 import React from 'react';
 import axios from 'axios';
 import BotCard from './BotCard';

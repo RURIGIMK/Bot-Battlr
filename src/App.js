@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import BotCollection from './components/BotCollection';
 import YourBotArmy from './components/YourBotArmy';

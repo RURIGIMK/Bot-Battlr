@@ -1,4 +1,3 @@
-// src/components/BotCard.js
 import React from 'react';
 import './BotCard.css';
 
